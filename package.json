@@ -1,0 +1,31 @@
+{
+  "name": "shelly-shell",
+  "version": "1.0.0",
+  "description": "Baby snail sized website shell ready to go with Grunt and some helpful tasks.",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-postcss": "^0.4.0",
+    "autoprefixer-core": "^5.2.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgca/shelly-shell.git"
+  },
+  "keywords": [
+    "web",
+    "shell",
+    "grunt"
+  ],
+  "author": "Dan Cortes",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/dgca/shelly-shell/issues"
+  },
+  "homepage": "https://github.com/dgca/shelly-shell#readme"
+}
