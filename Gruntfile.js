@@ -34,11 +34,11 @@ module.exports = function(grunt) {
   });
 
   // Load plugins.
-  grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-postcss');
 
   // Grunt tasks.
-  grunt.registerTask('default', ['sass', 'postcss:dist']);
-  grunt.registerTask('watch', ['watch']);
+  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('build', ['sass', 'postcss:dist']);
 };
